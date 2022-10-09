@@ -118,8 +118,9 @@ int[] nums = new int[size];
 int[] res = new int[size/2];
 RandomArray(nums);
 Console.WriteLine("Массив: ");
-PrintNums(nums);
-PrintRes(nums, res);
+//PrintNums(nums);
+//PrintRes(nums, res);
+Console.Write(nums.ToString());
 
 void RandomArray(int[] nums)
 {
