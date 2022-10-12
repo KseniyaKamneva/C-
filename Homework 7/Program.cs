@@ -42,6 +42,8 @@ int cols = Convert.ToInt32(Console.ReadLine());
 int [,] array = new int [str,cols];
 Console.WriteLine("Введите порядковый номер элемента: ");
 int num = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Введите индекс элемента: ");
+//int num = Convert.ToInt32(Console.ReadLine()) + 1;
 FillArray(array);
 Print(array);
 
